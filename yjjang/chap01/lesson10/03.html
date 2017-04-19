@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+    <script>
+   		var globalV = "전역변수";
+   		
+   		window.onload=function(){
+   			var local1 = "지역변수";
+   			func1(100, 200);
+   		}
+   		
+   		function func1(num1, num2){
+   			var local1 = "지역변수";
+   			document.write("매개변수 " + num1, num2);
+   		}
+    </script>
+</head>
+<body>
+
+</body>
+</html>
