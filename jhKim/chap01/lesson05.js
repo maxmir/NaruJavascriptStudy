@@ -6,13 +6,30 @@
 
 (function(global){
     // ex01
-    var name = 'ddandongne';
-    var temp = name;
-    console.log('before name', name);
-    console.log('before temp', temp);
+//    var name = 'ddandongne';
+//    var temp = name;
+//    console.log('before name', name);
+//    console.log('before temp', temp);
+//    
+//    name = 'change';
+//    console.log('after name', name);
+//    console.log('after temp', temp);
+//    
+//    
+//    // ex02
+//    function test1(userName) {
+//        alert('userName = ' + userName);
+//    }
+//    test1(name);
+//    var num1 = 10;
+//    var num2 = 20;
+//    var result = num1 + num2;
+//    alert(result);
     
-    name = 'change';
-    console.log('after name', name);
-    console.log('after temp', temp);
+    // ex03
+    var num1 = 10;
+    var num2 = 20;
+    var result = num1 + num2;
+    alert(result);
     
 })(this);
